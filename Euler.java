@@ -59,7 +59,7 @@ public class Euler
 	
 	public static void main( String []args) throws IOException
 	{	
-		Euler096 obj = new Euler096();		
+		Euler obj = new Euler();		
 		try
 		{
 			Scanner f = new Scanner(new File("sudoku.txt"));
