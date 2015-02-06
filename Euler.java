@@ -15,7 +15,7 @@ public class Euler
 		{
 			sum = sum + (100*arr[0][0] + 10*arr[0][1] + arr[0][2]);
 			return true;
-        }
+        	}
 		int row = index/9;
 		int col = index%9;
 		int flag =1;		//flag =0 implies the number we selected is already present in the same row/column/block.
